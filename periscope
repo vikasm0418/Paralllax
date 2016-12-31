@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+    <title> My home page</title>
+    <meta charset="utf-8"/>
+    <link href="main.css" rel="stylesheet" type="text/css" >
+    <script src="new.js"></script>
+</head>
+<body>
+  <section class= "bird-box" >
+  		<section class="back-bird">
+  		</section>
+  		<section class="fore-bird">	
+  		</section> 
+  		<section class="logo"><hr style="z-index:1;opacity:0">
+  		<h1>Hi, I'M <br>VIKAS MEENA (Vicky)</h1> 
+  		<hr/>
+  		</section>
+  </section>
+  <section class="about">         
+  	<h2 style="width:1400px">I'm a 2yr undergraduate pursuing computer science in Indian Institute of Technology Kanpur. I love to dance and I'am good in most of the sports.A Y14 student of IITK and will graduate in the year 2018.
+  </section>
+  <hr>
+  <section class="large">
+  </section>
+  <script src="js/jquery-3.0.0.min.js"></script>
+</body>
+</html>
