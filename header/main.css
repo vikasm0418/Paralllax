@@ -1,0 +1,68 @@
+*{
+	margin:0;
+	padding:0;
+	border: 0;
+}
+body{
+	background: black;
+	height : 2000px;
+}
+h2{
+	padding: 100px 0 100px 0;
+	text-align : center;
+	font-size:175%;
+	color:#4A4444;
+	text-transform :uppercase;
+	letter-spacing:1%;
+	margin:5% 0;
+}
+h1{
+	text-align : center;
+	font-size:375%;
+	text-transform :uppercase;
+	letter-spacing:1%;
+}
+/*start parallax*/
+.bird-box{
+	position : relative;
+	height: 600px;
+	background: url(bird-bg.jpg) fixed ;
+	/*background-size: contain;*/
+	background-position: top center;
+	overflow: hidden;
+}
+hr {
+    width: 20%;
+    position: center;
+    border: 3px solid black;
+    transform:translate3d(190%,50%,0);
+}
+.logo{
+	width: 100%;
+	height: 100px;
+	color: black;
+	position: absolute;
+	top: 30%;
+}
+.fore-bird{
+	width: 960px;
+	height: 733px;
+	background-color: black;
+	background: url(fore-bird.png) no-repeat;
+	background-position: right bottom;
+	margin-right: 550px;
+	position: absolute;
+	left: 35%;
+	top:300px;
+}
+.back-bird{
+	width:160px;
+	height: 198px;
+	margin-left: 250px;
+	margin-top: 110px;
+	background: url(back-bird.png) no-repeat;
+	background-size: contain;
+	background-position: left top;
+
+}
+/*end parallax */
